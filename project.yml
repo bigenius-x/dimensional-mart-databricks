@@ -1,0 +1,12 @@
+id: '0cb1fd89-a368-4096-032e-08dd20455fcd'
+name: 'Databricks Dimensional and Mart'
+description: ''
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
+  version: '1.7.5'
+sourceSystems:
+  - id: '0738de2d-e087-4603-b404-2fb9cdcd59aa'
+    name: 'Blackforest Markets Parquet'
+    isLinkedProject: true
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
