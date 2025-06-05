@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'ae28e1d6-0492-4d59-a15c-eddc4b4fcfeb'
-    name: 'CUSTOMER_ID'
+    name: 'CUSTOMER_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

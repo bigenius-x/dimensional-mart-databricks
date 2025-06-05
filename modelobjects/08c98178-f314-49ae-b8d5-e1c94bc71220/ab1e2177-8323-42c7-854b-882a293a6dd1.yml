@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'a93d3c23-2fab-43c7-bdcf-9157ed1e0f9b'
-    name: 'ITEM_ID'
+    name: 'ITEM_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

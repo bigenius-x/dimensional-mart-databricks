@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'e8489918-7197-4f9e-93a9-60e6d475c14c'
-    name: 'EMPLOYEE_ID'
+    name: 'EMPLOYEE_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false
