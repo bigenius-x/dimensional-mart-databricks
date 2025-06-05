@@ -4,9 +4,10 @@ description: ''
 version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
-  version: '1.8.0'
+  version: '1.9.4'
 sourceSystems:
   - id: '0738de2d-e087-4603-b404-2fb9cdcd59aa'
     name: 'Blackforest Markets Parquet'
     isLinkedProject: true
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
+propertyValues: []

@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'f018cb6e-c728-4d9c-850b-bc980c52cf42'
-    name: 'LOYALTYCARD_ID'
+    name: 'LOYALTYCARD_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false
@@ -158,7 +158,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: '29a14785-b078-4efb-88ae-745c9dafcef0'
-    name: 'CUSTOMER_CUSTOMER_ID'
+    name: 'CUSTOMER_CUSTOMER_SK'
     description: 'Default term with the identity of the referenced entity'
     defaultTermId: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
     hiddenInSource: false

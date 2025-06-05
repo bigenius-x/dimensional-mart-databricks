@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '94b22e83-c541-402b-82d7-c1d198b1d0b9'
-    name: 'POS_ID'
+    name: 'POS_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false
@@ -171,7 +171,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: '20f17ab3-8269-46d0-b374-b032f01949b8'
-    name: 'BRANCH_BRANCH_ID'
+    name: 'BRANCH_BRANCH_SK'
     description: 'Default term with the identity of the referenced entity'
     defaultTermId: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
     hiddenInSource: false

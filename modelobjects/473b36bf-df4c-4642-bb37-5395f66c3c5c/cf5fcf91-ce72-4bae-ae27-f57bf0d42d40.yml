@@ -94,7 +94,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: '3bdbb38d-ec89-4718-a16d-247e6336fe67'
-    name: 'ITEM_ITEM_ID'
+    name: 'EMPLOYEE_ITEM_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -120,7 +120,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: 'de4c0572-2371-4eeb-b75e-4db026bf3ccd'
-    name: 'LOYALTYCARD_LOYALTYCARD_ID'
+    name: 'EMPLOYEE_LOYALTYCARD_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -204,7 +204,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: 'dfc53935-6db4-4ffd-90b6-277c231cd1c2'
-    name: 'POS_POS_ID'
+    name: 'EMPLOYEE_POS_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -230,7 +230,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: '206710a7-dc8f-4479-ab6e-4c982b7a42bb'
-    name: 'EMPLOYEE_EMPLOYEE_ID'
+    name: 'EMPLOYEE_EMPLOYEE_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
