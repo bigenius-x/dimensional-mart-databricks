@@ -318,4 +318,17 @@ dataflows:
           - termId: '38a22613-04ad-4e5a-9586-5d066bec9f20'
           - termId: '9e816792-7679-48a1-8a7b-6c03f3e1609f'
         propertyValues: []
+dataQualityChecks:
+  - id: '61e79321-45af-41f9-96c2-b86f61f6c74e'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: '9d77dd08-671c-4350-8d57-4828ba0a367c'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships: []

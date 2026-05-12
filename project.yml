@@ -4,10 +4,12 @@ description: ''
 version: 'v1.7'
 configuration:
   id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
-  version: '1.10.2'
+  version: '1.10.3'
 sourceSystems:
   - id: '0738de2d-e087-4603-b404-2fb9cdcd59aa'
     name: 'Blackforest Markets Parquet'
     isLinkedProject: true
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
-propertyValues: []
+propertyValues:
+  - propertyId: 'cfd1b8b1-d581-4621-8a37-a1adb88ecc67'
+    value: 'Column Comparison'

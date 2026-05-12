@@ -290,6 +290,13 @@ relationships:
     role: 'ITEM'
     additionalTermIds:
       - '3bdbb38d-ec89-4718-a16d-247e6336fe67'
+    dataQualityChecks:
+      - id: '827f5348-8e0c-449c-b6f5-484e7e4332c1'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '069c7a83-9d96-41cd-9eb9-67f41fc275da'
         termId: '777ca6f1-a104-49b7-a1ac-8976d79baebc'
@@ -300,6 +307,13 @@ relationships:
     role: 'LOYALTYCARD'
     additionalTermIds:
       - 'de4c0572-2371-4eeb-b75e-4db026bf3ccd'
+    dataQualityChecks:
+      - id: '827f5348-8e0c-449c-b6f5-484e7e4332c1'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: 'c0065389-adcc-477b-9044-9fd1e9514b78'
         termId: '028a4ce4-97d5-4941-a353-054c1696b303'
@@ -310,6 +324,13 @@ relationships:
     role: 'POS'
     additionalTermIds:
       - 'dfc53935-6db4-4ffd-90b6-277c231cd1c2'
+    dataQualityChecks:
+      - id: '827f5348-8e0c-449c-b6f5-484e7e4332c1'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '0f15202e-0a28-4df3-915f-115204d16375'
         termId: '30520524-2db5-492e-aaf8-ad19201060b4'
@@ -320,6 +341,13 @@ relationships:
     role: 'EMPLOYEE'
     additionalTermIds:
       - '206710a7-dc8f-4479-ab6e-4c982b7a42bb'
+    dataQualityChecks:
+      - id: '827f5348-8e0c-449c-b6f5-484e7e4332c1'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: 'baf187ea-60ba-4000-ba71-43bc329f830d'
         termId: '1cc89e38-9081-4c6d-b725-04987cc35b3b'
