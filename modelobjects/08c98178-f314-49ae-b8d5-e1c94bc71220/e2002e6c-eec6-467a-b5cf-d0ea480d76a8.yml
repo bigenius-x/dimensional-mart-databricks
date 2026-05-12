@@ -312,3 +312,6 @@ relationships:
       - referenceTermId: 'a4b9b554-699b-4acd-b763-0fbb0dfb5215'
         termId: 'ba7e686e-b32f-47c0-94c8-81500d3f2e4a'
     propertyValues: []
+propertyValues:
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'

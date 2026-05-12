@@ -362,3 +362,6 @@ dataQualityChecks:
     isActive: true
     logging: true
 relationships: []
+propertyValues:
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'
