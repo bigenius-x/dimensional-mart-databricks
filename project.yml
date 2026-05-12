@@ -1,6 +1,7 @@
 id: '0cb1fd89-a368-4096-032e-08dd20455fcd'
 name: 'Databricks Dimensional and Mart'
 description: ''
+artifactsFolderStructure: 'oneFolder'
 version: 'v1.7'
 configuration:
   id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
@@ -10,6 +11,4 @@ sourceSystems:
     name: 'Blackforest Markets Parquet'
     isLinkedProject: true
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
-propertyValues:
-  - propertyId: 'cfd1b8b1-d581-4621-8a37-a1adb88ecc67'
-    value: 'Column Comparison'
+propertyValues: []
