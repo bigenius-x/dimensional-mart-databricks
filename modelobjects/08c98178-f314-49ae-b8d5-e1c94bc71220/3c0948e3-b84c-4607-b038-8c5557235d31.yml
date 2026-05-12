@@ -244,6 +244,32 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ddc65df6-4c39-4688-ab61-584663bcdcd9'
+    name: 'BG_RowHashScd1'
+    description: 'Default term that stores the computed hash value for Scd1 attributes'
+    defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '06613e3f-da78-470d-8516-c2585d901624'
+    name: 'BG_RowHashScd2'
+    description: 'Default term that stores the computed hash value for Scd2 attributes'
+    defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '532a288a-aa99-4880-97d8-d4a817ee556f'
     name: 'Dataflow1'
@@ -286,4 +312,22 @@ dataflows:
             termId: 'd804e8d5-0e2e-4242-b92e-d9f19b04e1c8'
           - expression: '5846aa6a-463c-4dbd-b1ef-bf266d54e08c.74f8ddcc-6159-4c28-a9c8-4a049b1a74c5'
             termId: '2e85acb5-5f0d-4f75-8a2b-a735939f91c4'
+          - termId: 'ddc65df6-4c39-4688-ab61-584663bcdcd9'
+          - termId: '06613e3f-da78-470d-8516-c2585d901624'
+dataQualityChecks:
+  - id: '96f0bf57-b0da-4f55-a761-40e8c4f034e7'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: '181f02fc-26c9-4024-a490-20ee32bae344'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships: []
+propertyValues:
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'
