@@ -244,6 +244,32 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3e8f0ae5-737f-49f7-909f-6f63cb552e46'
+    name: 'BG_RowHashScd1'
+    description: 'Default term that stores the computed hash value for Scd1 attributes'
+    defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '911f848f-e096-4f00-baf1-73406d8b7ca1'
+    name: 'BG_RowHashScd2'
+    description: 'Default term that stores the computed hash value for Scd2 attributes'
+    defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '6673404f-9dd8-490a-8887-e30d02e109d7'
     name: 'Dataflow1'
@@ -285,6 +311,8 @@ dataflows:
             termId: '38a22613-04ad-4e5a-9586-5d066bec9f20'
           - expression: '51f6b49b-93a4-4e29-977d-dd5af6a4a910.61309725-4443-44bc-9356-ea9a34a37290'
             termId: '9e816792-7679-48a1-8a7b-6c03f3e1609f'
+          - termId: '3e8f0ae5-737f-49f7-909f-6f63cb552e46'
+          - termId: '911f848f-e096-4f00-baf1-73406d8b7ca1'
       - id: '24b0d84b-1f0f-40e7-8099-54ab2873e301'
         name: 'bdc'
         setOperatorId: '12bf835d-5821-4113-ac0f-942e66c64dbb'
@@ -317,6 +345,8 @@ dataflows:
           - termId: '733babc8-0238-477f-a7f6-9cfa6188fb23'
           - termId: '38a22613-04ad-4e5a-9586-5d066bec9f20'
           - termId: '9e816792-7679-48a1-8a7b-6c03f3e1609f'
+          - termId: '3e8f0ae5-737f-49f7-909f-6f63cb552e46'
+          - termId: '911f848f-e096-4f00-baf1-73406d8b7ca1'
         propertyValues: []
 dataQualityChecks:
   - id: '61e79321-45af-41f9-96c2-b86f61f6c74e'
